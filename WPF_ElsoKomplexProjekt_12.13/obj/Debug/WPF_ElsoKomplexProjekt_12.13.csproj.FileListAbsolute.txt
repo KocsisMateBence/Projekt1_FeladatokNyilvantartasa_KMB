@@ -14,3 +14,19 @@ E:\VS projektek\C#\WPF_ElsoKomplexProjekt_12.13\obj\Debug\WPF_ElsoKomplexProjekt
 E:\VS projektek\C#\WPF_ElsoKomplexProjekt_12.13\obj\Debug\WPF_ElsoKomplexProjekt_12.13.csproj.CoreCompileInputs.cache
 E:\VS projektek\C#\WPF_ElsoKomplexProjekt_12.13\obj\Debug\WPF_ElsoKomplexProjekt_12.13.exe
 E:\VS projektek\C#\WPF_ElsoKomplexProjekt_12.13\obj\Debug\WPF_ElsoKomplexProjekt_12.13.pdb
+C:\Users\Máté\Documents\GitHub\Projekt1_FeladatokNyilvantartasa_KMB\WPF_ElsoKomplexProjekt_12.13\bin\Debug\WPF_ElsoKomplexProjekt_12.13.exe.config
+C:\Users\Máté\Documents\GitHub\Projekt1_FeladatokNyilvantartasa_KMB\WPF_ElsoKomplexProjekt_12.13\bin\Debug\WPF_ElsoKomplexProjekt_12.13.exe
+C:\Users\Máté\Documents\GitHub\Projekt1_FeladatokNyilvantartasa_KMB\WPF_ElsoKomplexProjekt_12.13\bin\Debug\WPF_ElsoKomplexProjekt_12.13.pdb
+C:\Users\Máté\Documents\GitHub\Projekt1_FeladatokNyilvantartasa_KMB\WPF_ElsoKomplexProjekt_12.13\obj\Debug\WPF_ElsoKomplexProjekt_12.13.csproj.AssemblyReference.cache
+C:\Users\Máté\Documents\GitHub\Projekt1_FeladatokNyilvantartasa_KMB\WPF_ElsoKomplexProjekt_12.13\obj\Debug\WPF_ElsoKomplexProjekt_12.13.csproj.SuggestedBindingRedirects.cache
+C:\Users\Máté\Documents\GitHub\Projekt1_FeladatokNyilvantartasa_KMB\WPF_ElsoKomplexProjekt_12.13\obj\Debug\MainWindow.g.cs
+C:\Users\Máté\Documents\GitHub\Projekt1_FeladatokNyilvantartasa_KMB\WPF_ElsoKomplexProjekt_12.13\obj\Debug\App.g.cs
+C:\Users\Máté\Documents\GitHub\Projekt1_FeladatokNyilvantartasa_KMB\WPF_ElsoKomplexProjekt_12.13\obj\Debug\WPF_ElsoKomplexProjekt_12.13_MarkupCompile.cache
+C:\Users\Máté\Documents\GitHub\Projekt1_FeladatokNyilvantartasa_KMB\WPF_ElsoKomplexProjekt_12.13\obj\Debug\WPF_ElsoKomplexProjekt_12.13_MarkupCompile.lref
+C:\Users\Máté\Documents\GitHub\Projekt1_FeladatokNyilvantartasa_KMB\WPF_ElsoKomplexProjekt_12.13\obj\Debug\MainWindow.baml
+C:\Users\Máté\Documents\GitHub\Projekt1_FeladatokNyilvantartasa_KMB\WPF_ElsoKomplexProjekt_12.13\obj\Debug\WPF_ElsoKomplexProjekt_12.13.g.resources
+C:\Users\Máté\Documents\GitHub\Projekt1_FeladatokNyilvantartasa_KMB\WPF_ElsoKomplexProjekt_12.13\obj\Debug\WPF_ElsoKomplexProjekt_12._13.Properties.Resources.resources
+C:\Users\Máté\Documents\GitHub\Projekt1_FeladatokNyilvantartasa_KMB\WPF_ElsoKomplexProjekt_12.13\obj\Debug\WPF_ElsoKomplexProjekt_12.13.csproj.GenerateResource.cache
+C:\Users\Máté\Documents\GitHub\Projekt1_FeladatokNyilvantartasa_KMB\WPF_ElsoKomplexProjekt_12.13\obj\Debug\WPF_ElsoKomplexProjekt_12.13.csproj.CoreCompileInputs.cache
+C:\Users\Máté\Documents\GitHub\Projekt1_FeladatokNyilvantartasa_KMB\WPF_ElsoKomplexProjekt_12.13\obj\Debug\WPF_ElsoKomplexProjekt_12.13.exe
+C:\Users\Máté\Documents\GitHub\Projekt1_FeladatokNyilvantartasa_KMB\WPF_ElsoKomplexProjekt_12.13\obj\Debug\WPF_ElsoKomplexProjekt_12.13.pdb

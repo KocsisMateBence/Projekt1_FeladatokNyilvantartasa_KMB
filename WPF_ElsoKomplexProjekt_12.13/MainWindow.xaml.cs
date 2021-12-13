@@ -24,13 +24,13 @@ namespace WPF_ElsoKomplexProjekt_12._13
         //listák létrehozása
         List<CheckBox> feladatok = new List<CheckBox>();
         List<CheckBox> toroltek = new List<CheckBox>();
+        List<CheckBox> lista = new List<CheckBox>();
         public MainWindow()
         {
             InitializeComponent();
             //listboxok feltöltése
             feladatokListaja.ItemsSource = feladatok;
-            toroltekListaja.ItemsSource = toroltek;
-
+            toroltekListaja.ItemsSource = toroltek;                                
 
         }
         //feladat hozzáadása gomb
@@ -116,7 +116,42 @@ namespace WPF_ElsoKomplexProjekt_12._13
             File.WriteAllLines("lista.txt", checkboxok);
         }
 
-        
+        //Előző állás betöltése: HIBÁS!
+        /*private void Window_Loaded(object sender, RoutedEventArgs e)
+        {
+            if (!File.Exists("lista.txt")) return;
+            string[] teendok = File.ReadAllLines("lista.txt");
+            List<CheckBox> lista = new List<CheckBox>();
+
+            for (int i = 0; i < teendok.Length; i++)
+            {
+                string[] sor = teendok[i].Split(';');
+                CheckBox uj = new CheckBox();
+                uj.Content = sor[0];
+                if (sor[1] == "True")
+                {
+                    uj.IsChecked = true;
+                }
+                uj.Checked += new RoutedEventHandler(CheckBox_Checked);
+                uj.Unchecked += new RoutedEventHandler(CheckBox_Unchecked);
+
+                if (uj.IsChecked == true)
+                {
+                    uj.FontStyle = FontStyles.Italic;
+                    uj.Foreground = Brushes.Gray;
+                }
+                else
+                {
+                    uj.FontStyle = FontStyles.Normal;
+                    uj.Foreground = Brushes.Black;
+                }
+                lista.Add(uj);
+                feladatok.Add(uj);
+            }
+            feladatokListaja.ItemsSource = teendok;
+        }
+        */
+
 
         //Állományból beolvasás: HIBÁS!
         /* private void allomanybolOlvas_Click(object sender, RoutedEventArgs e)

@@ -5,21 +5,25 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:WPF_ElsoKomplexProjekt_12._13"
         mc:Ignorable="d"
-        Title="Feladatok nyilvántartása" Height="600" Width="800">
+        Title="Feladatok nyilvántartása" Height="600" Width="800" Loaded="Window_Loaded">
     <Grid>
-        <Button Name="ujElemHozzaadasa" Content="Új hozzáadása" HorizontalAlignment="Left" Margin="552,94,0,0" VerticalAlignment="Top" Width="203" Click="ujElemHozzaadasa_Click"/>
-        <Button Name="torlesGomb" Content="Kijelölt feladat törlése" HorizontalAlignment="Left" Margin="552,174,0,0" VerticalAlignment="Top" Width="203" Click="torlesGomb_Click"/>
-        <Button Name="modositGomb" Content="Kijelölt feladat módosítása" HorizontalAlignment="Left" Margin="552,134,0,0" VerticalAlignment="Top" Width="203" Click="modositGomb_Click"/>
-        <Button Name="visszaallitGomb" Content="Kijelölt feladat visszállít" HorizontalAlignment="Left" Margin="552,362,0,0" VerticalAlignment="Top" Width="203" Height="22" Click="visszaallitGomb_Click"/>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="99*"/>
+            <ColumnDefinition Width="301*"/>
+        </Grid.ColumnDefinitions>
+        <Button Name="ujElemHozzaadasa" Content="Új hozzáadása" HorizontalAlignment="Left" Margin="354,94,0,0" VerticalAlignment="Top" Width="203" Click="ujElemHozzaadasa_Click" Grid.Column="1"/>
+        <Button Name="torlesGomb" Content="Kijelölt feladat törlése" HorizontalAlignment="Left" Margin="354,174,0,0" VerticalAlignment="Top" Width="203" Click="torlesGomb_Click" Grid.Column="1"/>
+        <Button Name="modositGomb" Content="Kijelölt feladat módosítása" HorizontalAlignment="Left" Margin="354,134,0,0" VerticalAlignment="Top" Width="203" Click="modositGomb_Click" Grid.Column="1"/>
+        <Button Name="visszaallitGomb" Content="Kijelölt feladat visszállít" HorizontalAlignment="Left" Margin="354,362,0,0" VerticalAlignment="Top" Width="203" Height="22" Click="visszaallitGomb_Click" Grid.Column="1"/>
         <Label Content="Feladatok listája" HorizontalAlignment="Left" Margin="38,10,0,0" VerticalAlignment="Top" Width="113"/>
         <Label Content="Törölt elemek" HorizontalAlignment="Left" Margin="38,292,0,0" VerticalAlignment="Top" Width="113"/>
-        <ListBox Name="feladatokListaja" Margin="38,48,289,324" />
-        <ListBox Name="toroltekListaja" Margin="38,330,289,42" />
-        <TextBox Name="beSzoveg" HorizontalAlignment="Left" Margin="552,48,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="203" Height="26"/>
-        <Label Content="Feladatok szövege:" HorizontalAlignment="Left" Margin="552,10,0,0" VerticalAlignment="Top" Width="117" Height="26"/>
-        <Button Name="veglegesTorles" Content="Kijelölt feladat végleges törlése" HorizontalAlignment="Left" Margin="552,414,0,0" VerticalAlignment="Top" Width="203" Height="22" Click="veglegesTorles_Click"/>
-        <Button Name="allomanybaIr" Content="Lista kiírása állományba" HorizontalAlignment="Left" Margin="552,468,0,0" VerticalAlignment="Top" Width="203" Height="22" Click="allomanybaIr_Click"/>
-        <Button Name="allomanybolOlvas" Content="Lista állományból való betöltése&#xD;&#xA;  &#x9;(fejlesztés alatt)" HorizontalAlignment="Left" Margin="552,505,0,0" VerticalAlignment="Top" Width="203" Height="37"/>
+        <ListBox Name="feladatokListaja" Margin="38,48,289,324" Grid.ColumnSpan="2" />
+        <ListBox Name="toroltekListaja" Margin="38,330,289,42" Grid.ColumnSpan="2" />
+        <TextBox Name="beSzoveg" HorizontalAlignment="Left" Margin="354,48,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="203" Height="26" Grid.Column="1"/>
+        <Label Content="Feladatok szövege:" HorizontalAlignment="Left" Margin="354,10,0,0" VerticalAlignment="Top" Width="117" Height="26" Grid.Column="1"/>
+        <Button Name="veglegesTorles" Content="Kijelölt feladat végleges törlése" HorizontalAlignment="Left" Margin="354,414,0,0" VerticalAlignment="Top" Width="203" Height="22" Click="veglegesTorles_Click" Grid.Column="1"/>
+        <Button Name="allomanybaIr" Content="Lista kiírása állományba" HorizontalAlignment="Left" Margin="354,468,0,0" VerticalAlignment="Top" Width="203" Height="22" Click="allomanybaIr_Click" Grid.Column="1"/>
+        <Button Name="allomanybolOlvas" Content="Lista állományból való betöltése&#xD;&#xA;  &#x9;(fejlesztés alatt)" HorizontalAlignment="Left" Margin="354,505,0,0" VerticalAlignment="Top" Width="203" Height="37" Grid.Column="1"/>
 
     </Grid>
 </Window>
